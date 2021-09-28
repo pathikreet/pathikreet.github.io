@@ -1,0 +1,172 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Pathikreet Dutta
+title: Oracle Cloud Architect | Cloud Native Consultant | Oracle Certified | Azure Certified | DevOps Engineer | Emerging Technology Enthusiast
+email: pathikreet.dutta@outlook.com
+email_title: <i class="fas fa-envelope"></i>  
+phone: +91 9007904549
+phone_title: <i class="fas fa-mobile-alt"></i>  
+#website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: pathikreet
+github_username:  pathikreet
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: pathikreet-dutta
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Medium
+  icon: fab fa-medium
+  url: https://medium.com/@pathikreet-dutta
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/my-avatar.png
+layout: top-middle
+about_content: | # this will include new lines to allow paragraphs
+  Cloud Solutions Architect with 11+ years of experience in designing & building **API-first** scalable cloud solutions utilizing **IaaS**, **PaaS** and **FaaS**.
+
+  Over the last year, conceptualized, designed, and led a 15-member team to build a secure, scalable, data-agnostic, and fully pluggable product in the payment domain on 
+  <mark>Oracle Cloud</mark> as a cloud-native solution. Created API strategy & guidelines to securely develop the product and allay stakeholders' fears of security compromise on a public cloud, thus saving almost 62% in Capex.
+
+  Oracle Cloud & Azure Certified Architect with a focus on emerging technologies & expertise on <mark>Java</mark>, <mark>NodeJS</mark>, <mark>Docker</mark>, <mark>Markdown</mark> among others.
+
+content:
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      **Technical**
+
+      `Oracle Cloud`  `Java`  `NodeJS`  `Docker`  `Oracle Autonomous Database` `Terraform`  `Serverless`  `Microservices` `SOA` `OIC` `VBCS`   `Javascript`  
+      `BASH`  `YAML`  `JSON`  `IDCS`  `API Gateway` `Swagger` `DevOps(CI/CD)` `Oracle Container Pipelines(Wercker)`  `BPEL` `Oracle FMW Full Stack` `Spring Boot`  
+      `REST`  `SOAP`  `SCRUM`
+
+      **Non-Technical**
+
+        `Leadership`  `Effective Coaching`  `Client Management` `Relationship Management` `Resource Management` `Estimation`  `Collaboration`
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Cognizant Technology Solutions
+        sub_title: Technical Architect
+        caption: June 2019 - present
+        link: https://www.cognizant.com/
+        description: | # this will include new lines to allow paragraphs
+          * Strong customer and partner skills to help them to understand new cloud native architectures, articulating trade-offs, best practices and risk mitigations.
+          *	Design and build a PCI, WCAG/ADA compliant cloud architecture with a focus on PaaS to reduce administrative overhead.
+          *	Create a logical view of the requirements to streamline the architecture into a detailed flow diagram.
+          *	Design a network topology for the Oracle Cloud tenancy along with the Bill of Materials (BOM).
+          *	Design a deployment architecture and strategy keeping in mind the multi-tenant, HA, fault-tolerance and DR requirements.
+          *	Design a Security Permissions model in line PCI DSS requirements
+          *	Design and create API specifications(Swagger / Open API) as part of the API-first design strategy.
+          *	Design and create a data model to find gaps and finalize the complete system design.
+          *	Responsible for working with the Scrum Master to plan, develop, test, and deliver the MVP for demonstration to prospective customers.
+          *	Responsible to ensure that the product is pluggable in nature so that future integrations with multiple customers and program managers are very short, efficient and have a rapid GTM.
+          *	Design a product version rollout strategy to keep the Gold Copy ahead, in Git terminology, along with backward compatibility.
+          *	Plan, ideate and push new features to the product over time.
+          *	Design and develop Infrastructure-as-code (IaC) pipelines along with Wercker to automate provisioning new tenancies for new customers.
+          *	Creating a landscape to incorporate the new age technologies along with the matured tech stacks.
+          *	Preparation and reformatting of all documentation for seamless enablement of newer resources.
+          *	Train and prepare associates on the new age technology stacks and guide on their usage in the existing Oracle Cloud stack.
+          *	Responsible for R&D to incorporate newer cloud-agnostic technologies to automate daily redundant activities log analysis, incident scrolling, service reports, etc.           
+      - layout: left
+        title: Tata Consultancy Services
+        sub_title: Technical Lead
+        caption: March 2013 - June 2019
+        link: https://www.tcs.com/
+        description: | # this will include new lines to allow paragraphs
+          * Effectively communicates ideas, findings, and progress – both verbal and written – to internal stakeholders, government sponsors, and trusted partners
+          * Responsible for establishing Quality Gates to achieve earlier detection of software defects.
+          * Responsible for Code Quality, support and maintenance of all Integrations Systems.
+          * Responsible for designing new Middleware and Integration processes on Oracle FMW Stack.
+          * Plan and implement Process Improvements over time.
+          * Generate repeat business through aggressive POCs and advanced new age Digital technologies.
+          * Responsible for creating new base / ground for Digital transformation of customers.
+          * Responsible for a team of 15 resources across technologies and grooming them towards full stack developers in line with the DevOps model.
+          * Creating a landscape to incorporate the new age technologies along with the matured tech stacks.
+      - layout: top-left
+        title: Infosys
+        sub_title: Senior System Engineer
+        caption: February 2010 - February 2013
+        link: https://www.infosys.com/
+        description: | # this will include new lines to allow paragraphs
+          * Developed an application that allows an organization to scan and record vulnerabilities in its application’s(one or many).
+          * Implemented custom worklist architecture with Pure Java coding semantics.
+          * Enhanced the system into a Vulnerability Management System that mitigates business’s time and resources in locating and remediating vulnerabilities in its applications.
+          * Implemented Business Rules Management System for the application using DROOLS.
+          * Created a security mechanism to avoid data manipulation between the loosely coupled server side(Java/J2EE) and front end technologies(Adobe Flex).
+          * Custom mechanism mitigated the risk of manipulating the request and response using interceptor tools like BURP.
+          * Wrote build scripts in ANT to generate EAR files and deploy into application servers.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Siliguri Institute Of Technology
+        sub_title: B.Tech (IT)
+        caption: 2005 - 2009
+  - title: Professional Certifications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <div data-iframe-width="225" data-iframe-height="405" data-share-badge-id="9ca9ced6-f2cb-43e5-9c60-dd7fa2a11974" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <div data-iframe-width="225" data-iframe-height="405" data-share-badge-id="909e9315-525f-4461-98dd-6daa020e6040" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <div data-iframe-width="225" data-iframe-height="405" data-share-badge-id="7c563b8a-e299-48d4-9d7e-f208895fac27" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <div data-iframe-width="225" data-iframe-height="405" data-share-badge-id="71d24f59-a1a4-47ee-b3c8-5c7e4d3c7bbe" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <div data-iframe-width="225" data-iframe-height="405" data-share-badge-id="af2f7fbd-ea95-4032-be7e-24bfeb1fe970" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
