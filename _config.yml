@@ -53,9 +53,9 @@ additional_links:
 about_profile_image: images/my-avatar.png
 layout: top-middle
 about_content: | # this will include new lines to allow paragraphs
-  Cloud Solutions Architect with 11+ years of experience in designing & building **API-first** scalable cloud solutions utilizing **IaaS**, **PaaS** and **FaaS**.
+  Cloud Solutions Architect with 12+ years of experience in designing & building **API-first** scalable cloud solutions utilizing **IaaS**, **PaaS** and **FaaS**.
 
-  Over the last year, conceptualized, designed, and led a 15-member team to build a secure, scalable, data-agnostic, and fully pluggable product in the payment domain on 
+  Over the last year, conceptualized, designed, and built a secure, scalable, data-agnostic, and fully pluggable product in the payment domain on 
   <mark>Oracle Cloud</mark> as a cloud-native solution. Created API strategy & guidelines to securely develop the product and allay stakeholders' fears of security compromise on a public cloud, thus saving almost 62% in Capex.
 
   Oracle Cloud & Azure Certified Architect with a focus on emerging technologies & expertise on <mark>Java</mark>, <mark>NodeJS</mark>, <mark>Docker</mark>, <mark>Markdown</mark> among others.
